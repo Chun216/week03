@@ -254,7 +254,7 @@ img{
 	font-weight: 700;
 	padding-top: 8px;
 }
-@media (max-width:767px){
+@media (max-width:992px){
 	.classic-intro-section{
 		padding-bottom: 56px;
 	}
@@ -343,6 +343,7 @@ img{
 	max-width: calc(25% - 18px);
 }
 .comment-word{
+	flex-direction: column;
 	height: 205px;
 	padding: 16px;
 }
@@ -355,6 +356,7 @@ img{
 }
 .date{
 	margin-top: auto;
+	color: #707070;
 }
 @media (max-width:767px){
 	.comment-section{
@@ -426,6 +428,7 @@ img{
 	font-size: 16px;
 	border: none;
 	margin-top: 48px;
+	cursor:pointer;
 }
 @media (max-width:767px){
 	.contact-a{
@@ -470,6 +473,9 @@ img{
 .section-list{
 	align-items: center;
 }
+.section-list a:hover{
+	color: #650300;
+}
 .section-list-link{
 	display: inline-block;
 	text-decoration: none;
@@ -491,6 +497,7 @@ img{
 	font-size: 36px;
 	color: #FFFFFF;
 	padding-left: 22px;
+	text-decoration: none;
 }
 .phone-img{
 	width: 36px;
@@ -505,6 +512,7 @@ img{
 	font-size: 36px;
 	color: #FFFFFF;
 	padding-left: 22px;
+	text-decoration: none;
 }
 .box-c{
 	padding-top: 32px;
@@ -539,7 +547,7 @@ img{
 		padding-bottom: 32px;
 	}
 }
-@media (max-width:576px){
+@media (max-width:600px){
 	.social-img{
 		width: 24px;
 	}
